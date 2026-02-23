@@ -19,3 +19,10 @@ Difference between type and interface in practice?
 - Interfaces get more detailed error message than types
 - Both can be extended, but interfaces offer a more natural syntax that aligns better with object-oriented programming principles
 - Types are better in this situations: union types, function types, utility types
+
+#Day 3
+What does a controller do vs service?
+We can compare the controller to a reception desk. An HTTP request arrives and is converted to the application layer. It is verified that the data is in the correct format and that the person can send the request. Then, it is forwarded to the service, i.e., the appropriate department, where that department is already handling this specific request – logic.
+
+Why dependency injection helps testing?
+This makes it very easy to replace certain elements. You can create mocks of functions that don't need to be tested in a given location, or you can replace logic like prism, which can't be tested so easily.
