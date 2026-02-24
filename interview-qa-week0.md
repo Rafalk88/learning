@@ -26,3 +26,8 @@ We can compare the controller to a reception desk. An HTTP request arrives and i
 
 Why dependency injection helps testing?
 This makes it very easy to replace certain elements. You can create mocks of functions that don't need to be tested in a given location, or you can replace logic like prism, which can't be tested so easily.
+
+#Dat 4
+Why validate at API boundary?
+
+Difference between validation error and business error?
