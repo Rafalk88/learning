@@ -29,5 +29,7 @@ This makes it very easy to replace certain elements. You can create mocks of fun
 
 #Dat 4
 Why validate at API boundary?
+We should validate data before it reaches the service, as this ensures it's externally sourced. These include security considerations (e.g., you might accidentally allow an admin account to be created), data integrity, and application stability.
 
 Difference between validation error and business error?
+a validation error concerns incorrect input data, a business error concerns an error during the processing of this data or an error in the logic itself.
